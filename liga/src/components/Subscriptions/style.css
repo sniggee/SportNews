@@ -1,0 +1,11 @@
+.subs_sect{
+    padding-top: 30px;
+    min-height: 100vh;
+    background-color: var(--background-color);
+}
+.subs__txt{
+    padding-top: 50px;
+}
+.subs_div p {
+    padding: 15px 0px;
+}

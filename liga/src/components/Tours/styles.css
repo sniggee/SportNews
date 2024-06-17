@@ -1,0 +1,81 @@
+.tour-list{
+    display: flex;
+    justify-content: space-between;
+    max-width: calc(50% - 30px);
+    min-width: 50%;
+    padding: 15px;
+    color: var(--dark-color);
+    transition: .15s;
+    cursor: pointer;
+}
+
+.tour-list a{
+    font-weight: 500;
+}
+
+.tour-list:hover{
+    background-color: rgb(130, 130, 130);
+    color: white;
+}
+
+.tour{
+    margin: 15px;
+    max-width: 95%;
+    min-width: 95%;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    filter: drop-shadow(0px 3px 5px rgb(150, 150, 150));
+}
+
+.tour p{
+    text-align: center;
+    margin: 0px;
+    padding: 15px 0px;
+    background-color: var(--background-color);
+    color: var(--dark-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.teams-container img{
+    height: 30px;
+}
+
+.matches-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.tour-section{
+    padding: 5px 0px;
+}
+
+.tour-section img{
+    margin: 10px;
+}
+
+.tour-list .right-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tour-list .right-block a{
+    margin: 15px;
+}
+
+.color1{
+    background-color: var(--dark-background-color);
+}
+
+.color2{
+    background-color: var(--background-color);
+}
+
+.tours-container{
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

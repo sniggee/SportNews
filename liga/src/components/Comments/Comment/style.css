@@ -1,0 +1,22 @@
+.comment{
+    border-radius: 7px;
+    background: white;
+    padding: 15px;
+    margin: 15px;
+    width: 300px;
+}
+
+.comment p{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.comment .header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment .comment-date{
+    font-size: 13px;
+}

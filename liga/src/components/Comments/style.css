@@ -1,0 +1,26 @@
+.comments-container{
+    padding: 30px;
+}
+
+.comments-container button{
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+    background-color: var(--dark-background-color);
+    color: rgb(50, 50, 50);
+}
+
+form p{
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: var(--dark-color);
+    font-size: 20px;
+}
+
+form input[type=submit]{
+    border: none;
+    background: var(--dark-background-color);
+    padding: 7px 15px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
